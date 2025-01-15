@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+video {
+    height: 100%;
+    object-fit: cover;
+}
+p {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    color: #464646;
+    font-family: Arial, sans-serif;
+    text-align: start;
+    z-index: 1;
+}
+
+p :visited {
+    color: rgba(59, 59, 100, 0.75);
+}
+
+a {
+    color: #2a4354;
+}
