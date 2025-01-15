@@ -17,4 +17,4 @@ setTimeout(() => {
     if (!video.ended) {
         window.close();
     }
-}, 600);
+}, 6000);
