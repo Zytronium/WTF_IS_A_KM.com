@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    background: url('/images/whatthefuckisakilometer.png') repeat;
+    background-size: 512px auto;
+}
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+}
