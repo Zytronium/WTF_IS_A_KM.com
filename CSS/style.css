@@ -27,3 +27,8 @@ p :visited {
 a {
     color: #2a4354;
 }
+
+.invisiheading {
+    opacity: 0;
+    font-size: 0;
+}
