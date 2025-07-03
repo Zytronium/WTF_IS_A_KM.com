@@ -1,0 +1,42 @@
+.firework {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    pointer-events: none;
+    animation: fadeOut 1.2s forwards;
+    z-index: 1000;
+}
+
+.particle {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 65%;
+    background: red;
+    animation: explode 2s ease-out forwards;
+}
+
+@keyframes explode {
+    0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+    }
+    33% {
+        opacity: 0.75;
+    }
+    66% {
+        transform: translate(var(--dx), var(--dy)) scale(0.8);
+        opacity: 0.33;
+    }
+    100% {
+        transform: translate(var(--dx), var(--dy)) scale(0.5);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
